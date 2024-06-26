@@ -8,11 +8,11 @@ repos:
       - id: check-json
       - id: check-merge-conflict
         args: ['--assume-in-merge']
-      - id: debug-statments
+      - id: debug-statements
       - id: detect-private-key
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.4.8
-  hooks:
-    - id: ruff
-      args: ["--fix"]
+    rev: v0.4.8
+    hooks:
+      - id: ruff
+        args: ["--fix"]
